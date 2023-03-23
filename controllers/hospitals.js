@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const Hospital = require('../models/Hospital');
 const vacCenter = require('../models/VacCenter');
 

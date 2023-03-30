@@ -50,3 +50,5 @@ HospitalSchema.pre('remove', async function(next){
     await this.model('Appointment').deleteMany({hospital:this._id});
     next();
 });
+
+module.exports = mongoose.model('Hospital', HospitalSchema);
